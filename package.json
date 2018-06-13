@@ -11,8 +11,7 @@
     "clean": "rimraf lib dist",
     "lint": "eslint src test",
     "posttest": "npm run lint",
-    "prepublish": "npm run clean && npm run test && npm run build",
-    "test": "cross-env NODE_ENV=test jest"
+    "prepublish": "npm run clean && npm run test && npm run build"
   },
   "repository": {
     "type": "git",
